@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <nav>
+      <a href="index.html">Back</a>
+    </nav>
+    <title>Food!</title>
+    <!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Shop</a>
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>Food Gallery</b></h1>
+  <p><b>Made By: Molten-Cores</b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="https://i.pinimg.com/564x/2e/ba/e6/2ebae6e02b079ec8a2d83879fc94c635.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/564x/52/09/8d/52098d23eb6d9d79fd6a39652a9ca0d1.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/564x/bc/c0/17/bcc017fbc7fca679d87f611923b6086f.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/750x/99/61/b0/9961b0df5db9f541975473b41a546246.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/750x/5a/b5/66/5ab56617cb68f69a9bec18f8ea6b8784.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/564x/9f/71/d6/9f71d690475ae0b9ab6f381118326bff.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="https://i.pinimg.com/564x/75/2b/1a/752b1ad0b393608479ff016b27c17ca8.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/564x/91/be/c5/91bec5d551d438a272eeb9df6b1c60fa.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/564x/8e/ad/ee/8eadeef40fc4fb324c3cd45498ece32a.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/564x/bd/45/8b/bd458b540df9726a6c5f0ed3b1134fec.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/564x/93/e7/b0/93e7b0fc55ba63d4bdc9a7154bf507ea.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/750x/74/52/7c/74527cbd3ed5a9a42efc4cea0dc71e08.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="https://i.pinimg.com/564x/de/af/b0/deafb02eb90d689879a78fa2c4619ea8.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/564x/4a/d5/a2/4ad5a2b48ad57efea84648fc5e05bd5a.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/564x/ac/52/2c/ac522cc0ab24c49feff240ff604b5396.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/564x/c7/c3/2b/c7c32bcb0c2e17f8e33eb575abeac15c.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/750x/c7/90/af/c790af0cf2b22aa2089ed60425d30bb0.jpg" style="width:100%">
+    <img src="https://i.pinimg.com/564x/8b/9b/ef/8b9bef76caaf0a8bfc52b3d6f285bcac.jpg" style="width:100%">
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <p class="w3-medium">molten-cores</a></p>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+    
+  </body>
+</html>

@@ -1,0 +1,9 @@
+body{
+    background-color: #fff3c9;
+}
+h1{
+    text-align: center;
+}
+nav a:hover{
+  font-size: 20px;
+}

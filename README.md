@@ -1,1 +1,3 @@
-# SC22-BatchA-molten-cores
+# Celebrity Detection with AI
+
+Made by Molten Cores ●‿●

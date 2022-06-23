@@ -11,3 +11,8 @@ During our time in AI Camp, we learned a lot of things. We learned a lot of thin
 # Getting Our Dataset
 
 We used serpapi to quickly get images for our data set. After the getting images, we uploaded our images to roboflow. 
+
+# Tech Stack
+
+This project uses the YOLOv5 CNN to detect Marvel superheroes in real time.
+

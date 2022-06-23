@@ -32,4 +32,4 @@ Run #4:
 ![matrix1](/Model Metrics/confusion_matrix.png)
 
 # Conclusion
-
+We hope you liked our project! Some things we could inprove on would be to get more data/images,better lable our images and training with a higher epox so that we could get higher accuracy! We would also like to add more celebrities and expand to other types of celebrities. We could also possibly extend it so that it can tell you which celebrity you look most like. 

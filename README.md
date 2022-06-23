@@ -15,6 +15,9 @@ Have you ever gotten zero sleep because of the struggle of seeing a celebrity yo
 
 We used [serpapi](https://serpapi.com) to quickly get images for our dataset. After the getting images, we uploaded our images to [roboflow](https://roboflow.com). Then, we checked to make sure the image was good for our dataset, labeled our images, and split them into a training set, validation set, and testing set. We were able to get a total of 968 images and 7 batches(Spider Man, Iron Man, Black Panther, Dr. Strange, Falcoln, Wanda Maximoff and Evelyn). 
 
+![image](https://user-images.githubusercontent.com/108077234/175357385-731abd0f-2d85-4820-a5ed-e10ba990659d.png)
+
+
 # Training and Testing Our Model
 Before exporting our dataset from roboflow, we added some augmentations such as blurr, flip, rotate, shear and saturation. We used yolov5 to train our model using a batch of 4 and epoch of 12. After that was done, we used [wandb](https://wandb.ai/site) to visualize our training. 
 

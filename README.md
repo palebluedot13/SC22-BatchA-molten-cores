@@ -8,8 +8,7 @@ During our time in AI Camp, we learned a lot of things. We learned a lot of thin
 # Overview of Our Celebrity Detection with AI Project
 Have you ever gotten zero sleep because of the struggle of seeing a celebrity you recognize but not knowing their name? Well, fear no more! Our porject can detects celebrities through an image. However, there are way too many celebrities in the world so we decided to focus on a few celebrities first. Our model can detect the marvel superheros Spider man, Iron man, Falcoln, Dr. Strange, Wanda Maximoff and Evelyn. 
 
-![Marvel](https://cdn.discordapp.com/attachments/756729454134296647/989544727756046397/B09B255F-034A-45C9-805F-BFDC8C603A4A_1_201_a.jpeg)
-
+![Marvel](https://user-images.githubusercontent.com/97810831/175370083-9d1c5255-ea2d-45b0-aded-689a7882d741.jpeg)
 
 # Getting Our Dataset
 

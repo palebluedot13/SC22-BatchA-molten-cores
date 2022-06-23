@@ -19,7 +19,7 @@ We used [serpapi](https://serpapi.com) to quickly get images for our dataset. Af
 
 
 # Training and Testing Our Model
-Before exporting our dataset from roboflow, we added some augmentations such as blurr, flip, rotate, shear and saturation. We used yolov5 to train our model using a batch of 4 and epoch of 12. After that was done, we used [wandb](https://wandb.ai/site) to visualize our training. 
+Before exporting our dataset from roboflow, we added some augmentations such as blurr, flip, rotate, shear and saturation. We used [yolov5](https://jonathan-hui.medium.com/yolov4-c9901eaa8e61) to train our model using a batch of 4 and epoch of 12. After that was done, we used [wandb](https://wandb.ai/site) to visualize our training. 
 
 # Results
 Run #1: 

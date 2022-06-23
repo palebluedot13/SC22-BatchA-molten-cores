@@ -23,9 +23,13 @@ Before exporting our dataset from roboflow, we added some augmentations such as 
 
 # Results
 Run #1: 
+![matrix1](/SC22-BatchA-molten-cores/Model Metrics/confusion_matrix_1.png)
 Run #2:
+![matrix1](/Model Metrics/confusion_matrix_3.png)
 Run #3:
+![matrix1](/Model Metrics/confusion_matrix_4.png)
 Run #4: 
+![matrix1](/Model Metrics/confusion_matrix.png)
 
 # Conclusion
 
